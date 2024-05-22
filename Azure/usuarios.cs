@@ -31,7 +31,7 @@ namespace Azure
                 fr.ShowDialog();
             }
             else
-                MessageBox.Show("No se encontro el usuario " + txtusuario.Text + " revise si el correo o la contraseña son correctos.");
+                MessageBox.Show("No se encontro el usuario " + txtusuario.Text + " revise si el usuario o la contraseña son correctos.");
         }
 
         private void ckmostrar_CheckedChanged(object sender, EventArgs e)

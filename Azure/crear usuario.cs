@@ -38,7 +38,11 @@ namespace Azure
                     string fechaFormateada = fechaActual.ToString("dd-MM-yyyy");
                     SqlConnection cn = new SqlConnection(@"Data Source = SPARTAN117\SQLSERVER; Initial Catalog = azure; Persist Security Info = True; User ID = root2; Password = root2");
                     cn.Open();
-                    SqlCommand cmd = new SqlCommand("INSERT INTO usuario (Nombre_usuario, contraseña_usuario, correo_usuario, nombre_completo, fecha_registro_usuario,id_estado_cuenta,id_tipo_usuario) VALUES (@NU, @CU, @CO, @NC, @FR, @IE, @IT)", cn);
+                    SqlCommand cmdLastID = new SqlCommand("SELECT MAX(id_usuario) FROM usuario", cn);
+                    int lastID = (int)cmdLastID.ExecuteScalar();
+                    int newID = lastID + 1;
+                    SqlCommand cmd = new SqlCommand("INSERT INTO usuario (id_usuario, nombre_usuario, contraseña_usuario, correo_usuario, nombre_completo, fecha_registro_usuario,id_estado_cuenta,id_tipo_usuario) VALUES (@ID, @NU, @CU, @CO, @NC, @FR, @IE, @IT)", cn);
+                    cmd.Parameters.AddWithValue("@ID", newID);
                     cmd.Parameters.AddWithValue("@NU", NombreU.Text);
                     cmd.Parameters.AddWithValue("@CU", Contraseña.Text);
                     cmd.Parameters.AddWithValue("@CO", Correo.Text);
