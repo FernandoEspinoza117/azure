@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(crear_usuario));
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,6 +41,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.Tipo_usuario = new System.Windows.Forms.ComboBox();
+            this.tipousuarioBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.azureDataSet2 = new Azure.azureDataSet2();
             this.tipousuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.azureDataSet = new Azure.azureDataSet();
             this.tipo_usuarioTableAdapter = new Azure.azureDataSetTableAdapters.tipo_usuarioTableAdapter();
@@ -47,91 +50,106 @@
             this.azureDataSet1 = new Azure.azureDataSet1();
             this.tipousuarioBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.tipo_usuarioTableAdapter1 = new Azure.azureDataSet1TableAdapters.tipo_usuarioTableAdapter();
-            this.azureDataSet2 = new Azure.azureDataSet2();
-            this.tipousuarioBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.tipo_usuarioTableAdapter2 = new Azure.azureDataSet2TableAdapters.tipo_usuarioTableAdapter();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azureDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.azureDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.azureDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.azureDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.azureDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(96, 224);
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.Location = new System.Drawing.Point(88, 322);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 13);
+            this.label5.Size = new System.Drawing.Size(108, 23);
             this.label5.TabIndex = 25;
             this.label5.Text = "Contraseña";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(96, 172);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(88, 239);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.Size = new System.Drawing.Size(70, 23);
             this.label4.TabIndex = 24;
             this.label4.Text = "Correo";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(94, 120);
+            this.label1.Location = new System.Drawing.Point(125, 148);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 21;
             // 
             // Nombre
             // 
             this.Nombre.AutoSize = true;
-            this.Nombre.Location = new System.Drawing.Point(96, 68);
+            this.Nombre.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.Nombre.Location = new System.Drawing.Point(98, 62);
+            this.Nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Nombre.Name = "Nombre";
-            this.Nombre.Size = new System.Drawing.Size(90, 13);
+            this.Nombre.Size = new System.Drawing.Size(158, 23);
             this.Nombre.TabIndex = 20;
             this.Nombre.Text = "Nombre completo";
             this.Nombre.Click += new System.EventHandler(this.Nombre_Click);
             // 
             // Contraseña
             // 
-            this.Contraseña.Location = new System.Drawing.Point(82, 240);
+            this.Contraseña.Location = new System.Drawing.Point(92, 349);
+            this.Contraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Contraseña.Multiline = true;
             this.Contraseña.Name = "Contraseña";
-            this.Contraseña.Size = new System.Drawing.Size(313, 33);
+            this.Contraseña.Size = new System.Drawing.Size(416, 40);
             this.Contraseña.TabIndex = 19;
             // 
             // NombreU
             // 
-            this.NombreU.Location = new System.Drawing.Point(82, 136);
+            this.NombreU.Location = new System.Drawing.Point(92, 183);
+            this.NombreU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NombreU.Multiline = true;
             this.NombreU.Name = "NombreU";
-            this.NombreU.Size = new System.Drawing.Size(313, 33);
+            this.NombreU.Size = new System.Drawing.Size(416, 40);
             this.NombreU.TabIndex = 18;
             // 
             // Correo
             // 
-            this.Correo.Location = new System.Drawing.Point(82, 188);
+            this.Correo.Location = new System.Drawing.Point(92, 266);
+            this.Correo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Correo.Multiline = true;
             this.Correo.Name = "Correo";
-            this.Correo.Size = new System.Drawing.Size(313, 33);
+            this.Correo.Size = new System.Drawing.Size(416, 40);
             this.Correo.TabIndex = 15;
             // 
             // NombreC
             // 
-            this.NombreC.Location = new System.Drawing.Point(82, 84);
+            this.NombreC.Location = new System.Drawing.Point(92, 89);
+            this.NombreC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NombreC.Multiline = true;
             this.NombreC.Name = "NombreC";
-            this.NombreC.Size = new System.Drawing.Size(313, 33);
+            this.NombreC.Size = new System.Drawing.Size(416, 40);
             this.NombreC.TabIndex = 14;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(289, 344);
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(445, 423);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 23);
+            this.button1.Size = new System.Drawing.Size(141, 28);
             this.button1.TabIndex = 13;
             this.button1.Text = "Crear Usuario";
             this.button1.UseVisualStyleBackColor = true;
@@ -140,9 +158,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(96, 120);
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Location = new System.Drawing.Point(88, 148);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 13);
+            this.label6.Size = new System.Drawing.Size(168, 23);
             this.label6.TabIndex = 26;
             this.label6.Text = "Nombre de usuario";
             // 
@@ -152,11 +172,22 @@
             this.Tipo_usuario.DisplayMember = "tipo_usuario";
             this.Tipo_usuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Tipo_usuario.FormattingEnabled = true;
-            this.Tipo_usuario.Location = new System.Drawing.Point(82, 298);
+            this.Tipo_usuario.Location = new System.Drawing.Point(92, 423);
+            this.Tipo_usuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Tipo_usuario.Name = "Tipo_usuario";
-            this.Tipo_usuario.Size = new System.Drawing.Size(121, 21);
+            this.Tipo_usuario.Size = new System.Drawing.Size(160, 24);
             this.Tipo_usuario.TabIndex = 27;
             this.Tipo_usuario.ValueMember = "id_tipo_usuario";
+            // 
+            // tipousuarioBindingSource2
+            // 
+            this.tipousuarioBindingSource2.DataMember = "tipo_usuario";
+            this.tipousuarioBindingSource2.DataSource = this.azureDataSet2;
+            // 
+            // azureDataSet2
+            // 
+            this.azureDataSet2.DataSetName = "azureDataSet2";
+            this.azureDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tipousuarioBindingSource
             // 
@@ -191,25 +222,37 @@
             // 
             this.tipo_usuarioTableAdapter1.ClearBeforeFill = true;
             // 
-            // azureDataSet2
-            // 
-            this.azureDataSet2.DataSetName = "azureDataSet2";
-            this.azureDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tipousuarioBindingSource2
-            // 
-            this.tipousuarioBindingSource2.DataMember = "tipo_usuario";
-            this.tipousuarioBindingSource2.DataSource = this.azureDataSet2;
-            // 
             // tipo_usuarioTableAdapter2
             // 
             this.tipo_usuarioTableAdapter2.ClearBeforeFill = true;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(546, 0);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(86, 68);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 29;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(630, 485);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
             // crear_usuario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(475, 387);
+            this.ClientSize = new System.Drawing.Size(634, 476);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.Tipo_usuario);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -221,16 +264,20 @@
             this.Controls.Add(this.Correo);
             this.Controls.Add(this.NombreC);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "crear_usuario";
             this.Text = "crear_usuario";
             this.Load += new System.EventHandler(this.crear_usuario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.azureDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.azureDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.azureDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.azureDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.azureDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tipousuarioBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,5 +306,7 @@
         private azureDataSet2 azureDataSet2;
         private System.Windows.Forms.BindingSource tipousuarioBindingSource2;
         private azureDataSet2TableAdapters.tipo_usuarioTableAdapter tipo_usuarioTableAdapter2;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

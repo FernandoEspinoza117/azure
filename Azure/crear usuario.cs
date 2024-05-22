@@ -23,6 +23,8 @@ namespace Azure
 
         }
 
+        private SqlConnection cn = ConexionBD.GetConnection();
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (NombreC.Text == "" || NombreU.Text == "" || Correo.Text == "" || Contraseña.Text == "")
@@ -36,9 +38,12 @@ namespace Azure
                 {
                     DateTime fechaActual = DateTime.Now;
                     string fechaFormateada = fechaActual.ToString("dd-MM-yyyy");
-                    SqlConnection cn = new SqlConnection(@"Data Source = SPARTAN117\SQLSERVER; Initial Catalog = azure; Persist Security Info = True; User ID = root2; Password = root2");
                     cn.Open();
-                    SqlCommand cmd = new SqlCommand("INSERT INTO usuario (Nombre_usuario, contraseña_usuario, correo_usuario, nombre_completo, fecha_registro_usuario,id_estado_cuenta,id_tipo_usuario) VALUES (@NU, @CU, @CO, @NC, @FR, @IE, @IT)", cn);
+                    SqlCommand cmdLastID = new SqlCommand("SELECT MAX(id_usuario) FROM usuario", cn);
+                    int lastID = (int)cmdLastID.ExecuteScalar();
+                    int newID = lastID + 1;
+                    SqlCommand cmd = new SqlCommand("INSERT INTO usuario (id_usuario, nombre_usuario, contraseña_usuario, correo_usuario, nombre_completo, fecha_registro_usuario,id_estado_cuenta,id_tipo_usuario) VALUES (@ID, @NU, @CU, @CO, @NC, @FR, @IE, @IT)", cn);
+                    cmd.Parameters.AddWithValue("@ID", newID);
                     cmd.Parameters.AddWithValue("@NU", NombreU.Text);
                     cmd.Parameters.AddWithValue("@CU", Contraseña.Text);
                     cmd.Parameters.AddWithValue("@CO", Correo.Text);
@@ -49,6 +54,10 @@ namespace Azure
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Usuario Creado");
                     cn.Close();
+                    ConexionBD.CloseConnection();
+                    usuarios Obj = new usuarios();
+                    Obj.Show();
+                    this.Hide();
                 }
                 catch (Exception Ex)
                 {
@@ -56,6 +65,7 @@ namespace Azure
                 }
             }
         }
+        
 
         private void crear_usuario_Load(object sender, EventArgs e)
         {

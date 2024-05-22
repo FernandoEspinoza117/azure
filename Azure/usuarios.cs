@@ -18,9 +18,11 @@ namespace Azure
             InitializeComponent();
         }
 
+        private SqlConnection cn = ConexionBD.GetConnection();
+
         private void btniniciar_Click(object sender, EventArgs e)
         {
-            SqlConnection cn = new SqlConnection(@"Data Source = SPARTAN117\SQLSERVER; Initial Catalog = azure; Persist Security Info = True; User ID = root2; Password = root2");
+
             cn.Open();
             SqlCommand cm = new SqlCommand("select nombre_usuario, contraseña_usuario from usuario where nombre_usuario='" + txtusuario.Text + "'and contraseña_usuario='" + txtcontra.Text + "'", cn);
             SqlDataReader rd = cm.ExecuteReader();
@@ -31,7 +33,13 @@ namespace Azure
                 fr.ShowDialog();
             }
             else
-                MessageBox.Show("No se encontro el usuario " + txtusuario.Text + " revise si el correo o la contraseña son correctos.");
+                MessageBox.Show("No se encontro el usuario " + txtusuario.Text + " revise si el usuario o la contraseña son correctos.");
+<<<<<<< HEAD
+            cn.Close();
+            ConexionBD.CloseConnection();
+            
+=======
+>>>>>>> 831bd7d5d1ca80e130b63a21eefd8c0607c8bc29
         }
 
         private void ckmostrar_CheckedChanged(object sender, EventArgs e)
