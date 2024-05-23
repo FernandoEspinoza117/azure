@@ -34,12 +34,11 @@ namespace Azure
             }
             else
                 MessageBox.Show("No se encontro el usuario " + txtusuario.Text + " revise si el usuario o la contraseña son correctos.");
-<<<<<<< HEAD
+
             cn.Close();
             ConexionBD.CloseConnection();
             
-=======
->>>>>>> 831bd7d5d1ca80e130b63a21eefd8c0607c8bc29
+
         }
 
         private void ckmostrar_CheckedChanged(object sender, EventArgs e)

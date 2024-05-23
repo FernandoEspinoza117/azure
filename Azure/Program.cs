@@ -16,7 +16,7 @@ namespace Azure
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new crear_usuario());
+            Application.Run(new usuarios());
         }
     }
 }
