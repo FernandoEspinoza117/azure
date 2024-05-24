@@ -97,6 +97,9 @@
     <EmbeddedResource Include="crear usuario.resx">
       <DependentUpon>crear usuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="factura.resx">
+      <DependentUpon>factura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

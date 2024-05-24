@@ -25,6 +25,12 @@ namespace Azure
 
             cn.Open();
             SqlCommand cm = new SqlCommand("select nombre_usuario, contraseña_usuario from usuario where nombre_usuario='" + txtusuario.Text + "'and contraseña_usuario='" + txtcontra.Text + "'", cn);
+            SqlCommand queryobetenerid=new SqlCommand ("select id_usuario from usuario where nombre_usuario='" + txtusuario.Text + "'and contraseña_usuario='" + txtcontra.Text + "'", cn);
+            int idusuario = 0;
+            idusuario = Convert.ToInt32(queryobetenerid.ExecuteScalar());  
+            
+
+
             SqlDataReader rd = cm.ExecuteReader();
             if (rd.Read())
             {
