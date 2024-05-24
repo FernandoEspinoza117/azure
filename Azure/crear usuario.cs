@@ -37,8 +37,7 @@ namespace Azure
                 try
                 {
                     DateTime fechaActual = DateTime.Now;
-                    string fechaFormateada = fechaActual.ToString("dd-MM-yyyy");
-                    cn.Open();
+                    string fechaFormateada = fechaActual.ToString("dd-MM-yyyy");                   
                     SqlCommand cmdLastID = new SqlCommand("SELECT MAX(id_usuario) FROM usuario", cn);
                     int lastID = (int)cmdLastID.ExecuteScalar();
                     int newID = lastID + 1;
@@ -53,7 +52,6 @@ namespace Azure
                     cmd.Parameters.AddWithValue("@IT", Tipo_usuario.SelectedValue);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Usuario Creado");
-                    cn.Close();
                     ConexionBD.CloseConnection();
                     usuarios Obj = new usuarios();
                     Obj.Show();
