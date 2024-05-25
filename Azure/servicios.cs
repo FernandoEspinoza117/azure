@@ -22,14 +22,7 @@ namespace Azure
         private void servicios_Load(object sender, EventArgs e)
         {
             usuarios inusuarios = new usuarios();
-            if (usuarios.idusuario != 0)
-            {
-                MessageBox.Show("bienvenido");
-            }
-            else 
-            {
-                MessageBox.Show("no hay usuario");
-            }
+           
         }
 
         private void button1_Click(object sender, EventArgs e)

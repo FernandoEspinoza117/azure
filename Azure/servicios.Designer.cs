@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(servicios));
-            this.Tipo_Seguridad = new System.Windows.Forms.ComboBox();
-            this.Tipo_DevOps = new System.Windows.Forms.ComboBox();
-            this.Tipo_BD = new System.Windows.Forms.ComboBox();
-            this.Tipo_Redes = new System.Windows.Forms.ComboBox();
-            this.Tipo_Almacenamiento = new System.Windows.Forms.ComboBox();
-            this.Tipos_Computacion = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,6 +45,12 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -61,83 +61,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Tipo_Seguridad
-            // 
-            this.Tipo_Seguridad.DisplayMember = "tipo_usuario";
-            this.Tipo_Seguridad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Tipo_Seguridad.FormattingEnabled = true;
-            this.Tipo_Seguridad.Location = new System.Drawing.Point(526, 241);
-            this.Tipo_Seguridad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Tipo_Seguridad.Name = "Tipo_Seguridad";
-            this.Tipo_Seguridad.Size = new System.Drawing.Size(92, 21);
-            this.Tipo_Seguridad.TabIndex = 54;
-            this.Tipo_Seguridad.ValueMember = "id_tipo_usuario";
-            // 
-            // Tipo_DevOps
-            // 
-            this.Tipo_DevOps.DisplayMember = "tipo_usuario";
-            this.Tipo_DevOps.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Tipo_DevOps.FormattingEnabled = true;
-            this.Tipo_DevOps.Location = new System.Drawing.Point(89, 320);
-            this.Tipo_DevOps.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Tipo_DevOps.Name = "Tipo_DevOps";
-            this.Tipo_DevOps.Size = new System.Drawing.Size(92, 21);
-            this.Tipo_DevOps.TabIndex = 53;
-            this.Tipo_DevOps.ValueMember = "id_tipo_usuario";
-            // 
-            // Tipo_BD
-            // 
-            this.Tipo_BD.DisplayMember = "tipo_usuario";
-            this.Tipo_BD.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Tipo_BD.FormattingEnabled = true;
-            this.Tipo_BD.Location = new System.Drawing.Point(205, 203);
-            this.Tipo_BD.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Tipo_BD.Name = "Tipo_BD";
-            this.Tipo_BD.Size = new System.Drawing.Size(92, 21);
-            this.Tipo_BD.TabIndex = 52;
-            this.Tipo_BD.ValueMember = "id_tipo_usuario";
-            // 
-            // Tipo_Redes
-            // 
-            this.Tipo_Redes.DisplayMember = "tipo_usuario";
-            this.Tipo_Redes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Tipo_Redes.FormattingEnabled = true;
-            this.Tipo_Redes.Location = new System.Drawing.Point(377, 196);
-            this.Tipo_Redes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Tipo_Redes.Name = "Tipo_Redes";
-            this.Tipo_Redes.Size = new System.Drawing.Size(92, 21);
-            this.Tipo_Redes.TabIndex = 51;
-            this.Tipo_Redes.ValueMember = "id_tipo_usuario";
-            // 
-            // Tipo_Almacenamiento
-            // 
-            this.Tipo_Almacenamiento.DisplayMember = "tipo_usuario";
-            this.Tipo_Almacenamiento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Tipo_Almacenamiento.FormattingEnabled = true;
-            this.Tipo_Almacenamiento.Location = new System.Drawing.Point(321, 331);
-            this.Tipo_Almacenamiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Tipo_Almacenamiento.Name = "Tipo_Almacenamiento";
-            this.Tipo_Almacenamiento.Size = new System.Drawing.Size(92, 21);
-            this.Tipo_Almacenamiento.TabIndex = 50;
-            this.Tipo_Almacenamiento.ValueMember = "id_tipo_usuario";
-            // 
-            // Tipos_Computacion
-            // 
-            this.Tipos_Computacion.DisplayMember = "tipo_usuario";
-            this.Tipos_Computacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Tipos_Computacion.FormattingEnabled = true;
-            this.Tipos_Computacion.Location = new System.Drawing.Point(38, 180);
-            this.Tipos_Computacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Tipos_Computacion.Name = "Tipos_Computacion";
-            this.Tipos_Computacion.Size = new System.Drawing.Size(92, 21);
-            this.Tipos_Computacion.TabIndex = 49;
-            this.Tipos_Computacion.ValueMember = "id_tipo_usuario";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label7.Location = new System.Drawing.Point(313, 311);
+            this.label7.Location = new System.Drawing.Point(256, 352);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(146, 13);
@@ -148,7 +76,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.GhostWhite;
-            this.label6.Location = new System.Drawing.Point(97, 301);
+            this.label6.Location = new System.Drawing.Point(61, 352);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 13);
@@ -159,7 +87,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.GhostWhite;
-            this.label5.Location = new System.Drawing.Point(518, 226);
+            this.label5.Location = new System.Drawing.Point(459, 355);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(119, 13);
@@ -172,7 +100,7 @@
             this.label4.BackColor = System.Drawing.Color.GhostWhite;
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(389, 172);
+            this.label4.Location = new System.Drawing.Point(459, 202);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(99, 13);
@@ -183,7 +111,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(203, 182);
+            this.label3.Location = new System.Drawing.Point(256, 202);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(143, 13);
@@ -194,7 +122,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(37, 163);
+            this.label2.Location = new System.Drawing.Point(61, 202);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 13);
@@ -204,7 +132,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(89, 226);
+            this.pictureBox8.Location = new System.Drawing.Point(64, 285);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(88, 65);
@@ -215,7 +143,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(322, 236);
+            this.pictureBox7.Location = new System.Drawing.Point(259, 288);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(88, 65);
@@ -228,7 +156,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Font = new System.Drawing.Font("Impact", 30F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(200, 31);
+            this.label1.Location = new System.Drawing.Point(14, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(189, 48);
@@ -238,7 +166,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(423, 11);
+            this.pictureBox6.Location = new System.Drawing.Point(207, 29);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(93, 71);
@@ -249,7 +177,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(526, 150);
+            this.pictureBox5.Location = new System.Drawing.Point(462, 288);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(88, 65);
@@ -260,7 +188,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(207, 109);
+            this.pictureBox4.Location = new System.Drawing.Point(259, 135);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(88, 65);
@@ -271,7 +199,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(377, 98);
+            this.pictureBox3.Location = new System.Drawing.Point(462, 135);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(88, 65);
@@ -284,7 +212,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Firebrick;
             this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(40, 87);
+            this.pictureBox2.Location = new System.Drawing.Point(64, 135);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(88, 65);
@@ -295,36 +223,90 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 29);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(638, 352);
+            this.pictureBox1.Size = new System.Drawing.Size(638, 410);
             this.pictureBox1.TabIndex = 34;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(543, 12);
+            this.button1.Location = new System.Drawing.Point(559, 1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(101, 23);
             this.button1.TabIndex = 55;
-            this.button1.Text = "button1";
+            this.button1.Text = "Iniciar Sesion";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(64, 218);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 57;
+            this.button2.Text = "Comprar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(259, 218);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 58;
+            this.button3.Text = "Comprar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(462, 218);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 59;
+            this.button4.Text = "Comprar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(64, 368);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 60;
+            this.button5.Text = "Comprar";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(259, 368);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 61;
+            this.button6.Text = "Comprar";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(462, 371);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 62;
+            this.button7.Text = "Comprar";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // servicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(655, 370);
+            this.ClientSize = new System.Drawing.Size(662, 440);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.Tipo_Seguridad);
-            this.Controls.Add(this.Tipo_DevOps);
-            this.Controls.Add(this.Tipo_BD);
-            this.Controls.Add(this.Tipo_Redes);
-            this.Controls.Add(this.Tipo_Almacenamiento);
-            this.Controls.Add(this.Tipos_Computacion);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -340,7 +322,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "servicios";
             this.Text = "servicios";
             this.Load += new System.EventHandler(this.servicios_Load);
@@ -358,13 +340,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox Tipo_Seguridad;
-        private System.Windows.Forms.ComboBox Tipo_DevOps;
-        private System.Windows.Forms.ComboBox Tipo_BD;
-        private System.Windows.Forms.ComboBox Tipo_Redes;
-        private System.Windows.Forms.ComboBox Tipo_Almacenamiento;
-        private System.Windows.Forms.ComboBox Tipos_Computacion;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -381,5 +356,11 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
