@@ -8,15 +8,14 @@ public class ConexionBD
 
     private ConexionBD()
     {
-        // Constructor privado para evitar instanciación directa
+
     }
 
     public static SqlConnection GetConnection()
     {
         if (Connection == null)
         {
-            Connection = new SqlConnection(connectionString);
-            
+            Connection = new SqlConnection(connectionString);           
         }
         else if (Connection.State == System.Data.ConnectionState.Closed)
         {
@@ -31,7 +30,6 @@ public class ConexionBD
         if (Connection != null && Connection.State == System.Data.ConnectionState.Open)
         {
             Connection.Close();
-            // Connection = null; // No es necesario establecer Connection a null
         }
     }
 }

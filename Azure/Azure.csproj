@@ -61,6 +61,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>azureDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="azureDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>azureDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="azureDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>azureDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="azureDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>azureDataSet5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Base_datos.cs" />
     <Compile Include="crear usuario.cs">
       <SubType>Form</SubType>
@@ -109,6 +124,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="recursos.resx">
+      <DependentUpon>recursos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="servicios.resx">
       <DependentUpon>servicios.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +165,39 @@
     </None>
     <None Include="azureDataSet2.xss">
       <DependentUpon>azureDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="azureDataSet3.xsc">
+      <DependentUpon>azureDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="azureDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>azureDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="azureDataSet3.xss">
+      <DependentUpon>azureDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="azureDataSet4.xsc">
+      <DependentUpon>azureDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="azureDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>azureDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="azureDataSet4.xss">
+      <DependentUpon>azureDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="azureDataSet5.xsc">
+      <DependentUpon>azureDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="azureDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>azureDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="azureDataSet5.xss">
+      <DependentUpon>azureDataSet5.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

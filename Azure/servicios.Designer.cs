@@ -44,13 +44,13 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.iniciarses = new System.Windows.Forms.Button();
+            this.servececomp = new System.Windows.Forms.Button();
+            this.serviceBD = new System.Windows.Forms.Button();
+            this.serviceRed = new System.Windows.Forms.Button();
+            this.ServiceOPS = new System.Windows.Forms.Button();
+            this.serviceAlm = new System.Windows.Forms.Button();
+            this.serviceSeg = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -230,69 +230,75 @@
             this.pictureBox1.TabIndex = 34;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // iniciarses
             // 
-            this.button1.Location = new System.Drawing.Point(559, 1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 23);
-            this.button1.TabIndex = 55;
-            this.button1.Text = "Iniciar Sesion";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.iniciarses.Location = new System.Drawing.Point(559, 1);
+            this.iniciarses.Name = "iniciarses";
+            this.iniciarses.Size = new System.Drawing.Size(101, 23);
+            this.iniciarses.TabIndex = 55;
+            this.iniciarses.Text = "Iniciar Sesion";
+            this.iniciarses.UseVisualStyleBackColor = true;
+            this.iniciarses.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // servececomp
             // 
-            this.button2.Location = new System.Drawing.Point(64, 218);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 57;
-            this.button2.Text = "Comprar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.servececomp.Location = new System.Drawing.Point(64, 218);
+            this.servececomp.Name = "servececomp";
+            this.servececomp.Size = new System.Drawing.Size(75, 23);
+            this.servececomp.TabIndex = 57;
+            this.servececomp.Text = "Comprar";
+            this.servececomp.UseVisualStyleBackColor = true;
+            this.servececomp.Click += new System.EventHandler(this.servececomp_Click);
             // 
-            // button3
+            // serviceBD
             // 
-            this.button3.Location = new System.Drawing.Point(259, 218);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 58;
-            this.button3.Text = "Comprar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.serviceBD.Location = new System.Drawing.Point(259, 218);
+            this.serviceBD.Name = "serviceBD";
+            this.serviceBD.Size = new System.Drawing.Size(75, 23);
+            this.serviceBD.TabIndex = 58;
+            this.serviceBD.Text = "Comprar";
+            this.serviceBD.UseVisualStyleBackColor = true;
+            this.serviceBD.Click += new System.EventHandler(this.serviceBD_Click);
             // 
-            // button4
+            // serviceRed
             // 
-            this.button4.Location = new System.Drawing.Point(462, 218);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 59;
-            this.button4.Text = "Comprar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.serviceRed.Location = new System.Drawing.Point(462, 218);
+            this.serviceRed.Name = "serviceRed";
+            this.serviceRed.Size = new System.Drawing.Size(75, 23);
+            this.serviceRed.TabIndex = 59;
+            this.serviceRed.Text = "Comprar";
+            this.serviceRed.UseVisualStyleBackColor = true;
+            this.serviceRed.Click += new System.EventHandler(this.serviceRed_Click);
             // 
-            // button5
+            // ServiceOPS
             // 
-            this.button5.Location = new System.Drawing.Point(64, 368);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 60;
-            this.button5.Text = "Comprar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.ServiceOPS.Location = new System.Drawing.Point(64, 368);
+            this.ServiceOPS.Name = "ServiceOPS";
+            this.ServiceOPS.Size = new System.Drawing.Size(75, 23);
+            this.ServiceOPS.TabIndex = 60;
+            this.ServiceOPS.Text = "Comprar";
+            this.ServiceOPS.UseVisualStyleBackColor = true;
+            this.ServiceOPS.Click += new System.EventHandler(this.ServiceOPS_Click);
             // 
-            // button6
+            // serviceAlm
             // 
-            this.button6.Location = new System.Drawing.Point(259, 368);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 61;
-            this.button6.Text = "Comprar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.serviceAlm.Location = new System.Drawing.Point(259, 368);
+            this.serviceAlm.Name = "serviceAlm";
+            this.serviceAlm.Size = new System.Drawing.Size(75, 23);
+            this.serviceAlm.TabIndex = 61;
+            this.serviceAlm.Text = "Comprar";
+            this.serviceAlm.UseVisualStyleBackColor = true;
+            this.serviceAlm.Click += new System.EventHandler(this.serviceAlm_Click);
             // 
-            // button7
+            // serviceSeg
             // 
-            this.button7.Location = new System.Drawing.Point(462, 371);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 62;
-            this.button7.Text = "Comprar";
-            this.button7.UseVisualStyleBackColor = true;
+            this.serviceSeg.Location = new System.Drawing.Point(462, 371);
+            this.serviceSeg.Name = "serviceSeg";
+            this.serviceSeg.Size = new System.Drawing.Size(75, 23);
+            this.serviceSeg.TabIndex = 62;
+            this.serviceSeg.Text = "Comprar";
+            this.serviceSeg.UseVisualStyleBackColor = true;
+            this.serviceSeg.Click += new System.EventHandler(this.serviceSeg_Click);
             // 
             // servicios
             // 
@@ -300,13 +306,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(662, 440);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.serviceSeg);
+            this.Controls.Add(this.serviceAlm);
+            this.Controls.Add(this.ServiceOPS);
+            this.Controls.Add(this.serviceRed);
+            this.Controls.Add(this.serviceBD);
+            this.Controls.Add(this.servececomp);
+            this.Controls.Add(this.iniciarses);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -355,12 +361,12 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button iniciarses;
+        private System.Windows.Forms.Button servececomp;
+        private System.Windows.Forms.Button serviceBD;
+        private System.Windows.Forms.Button serviceRed;
+        private System.Windows.Forms.Button ServiceOPS;
+        private System.Windows.Forms.Button serviceAlm;
+        private System.Windows.Forms.Button serviceSeg;
     }
 }

@@ -17,7 +17,7 @@ namespace Azure
         {
             InitializeComponent();
         }
-        private SqlConnection cn = ConexionBD.GetConnection();
+        
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {

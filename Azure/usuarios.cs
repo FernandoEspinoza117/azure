@@ -37,8 +37,9 @@ namespace Azure
                 usuarios.idusuario = Convert.ToInt32(queryobetenerid.ExecuteScalar());
                 ConexionBD.CloseConnection();
                 servicios fr = new servicios();
-                fr.ShowDialog();
-                
+                fr.Show();
+                this.Hide();
+
             }
             else
                 MessageBox.Show("No se encontro el usuario " + txtusuario.Text + " revise si el usuario o la contraseña son correctos.");
@@ -59,6 +60,11 @@ namespace Azure
             {
                 txtcontra.PasswordChar = '\0';
             }
+        }
+
+        private void usuarios_Load(object sender, EventArgs e)
+        {
+
         }
     }
     
