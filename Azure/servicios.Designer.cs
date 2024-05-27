@@ -52,6 +52,7 @@
             this.serviceAlm = new System.Windows.Forms.Button();
             this.serviceSeg = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
+            this.ver_fact = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -311,12 +312,23 @@
             this.label8.TabIndex = 63;
             this.label8.Text = "label8";
             // 
+            // ver_fact
+            // 
+            this.ver_fact.Location = new System.Drawing.Point(446, 1);
+            this.ver_fact.Name = "ver_fact";
+            this.ver_fact.Size = new System.Drawing.Size(91, 23);
+            this.ver_fact.TabIndex = 64;
+            this.ver_fact.Text = "Ver Facturas";
+            this.ver_fact.UseVisualStyleBackColor = true;
+            this.ver_fact.Click += new System.EventHandler(this.ver_fact_Click);
+            // 
             // servicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(662, 440);
+            this.Controls.Add(this.ver_fact);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.serviceSeg);
             this.Controls.Add(this.serviceAlm);
@@ -381,5 +393,6 @@
         private System.Windows.Forms.Button serviceAlm;
         private System.Windows.Forms.Button serviceSeg;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button ver_fact;
     }
 }

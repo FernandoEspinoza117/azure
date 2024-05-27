@@ -36,6 +36,7 @@ namespace Azure
                 {
                    label8.Text = nombreusuario;
                    label8.Visible = true;
+                   ver_fact.Visible = true;
                    iniciarses.Visible = false;
                    servececomp.Enabled = true;
                    serviceAlm.Enabled = true;
@@ -47,6 +48,7 @@ namespace Azure
                 else
                 {
                     label8.Visible = false;
+                   ver_fact.Visible = false;
                    iniciarses.Visible = true;
                    servececomp.Enabled = false;
                    serviceAlm.Enabled = false;
@@ -112,6 +114,13 @@ namespace Azure
             idservicios = 10;
             recursos Obj = new recursos();
             Obj.Show();
+            this.Hide();
+        }
+
+        private void ver_fact_Click(object sender, EventArgs e)
+        {
+            factura fr = new factura();
+            fr.Show();
             this.Hide();
         }
     }
