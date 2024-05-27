@@ -21,6 +21,7 @@ namespace Azure
 
         private SqlConnection cn = ConexionBD.GetConnection();
         public static int idusuario=0;
+        
 
         public void btniniciar_Click(object sender, EventArgs e)
         {
@@ -64,6 +65,14 @@ namespace Azure
 
         private void usuarios_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            crear_usuario fr = new crear_usuario();
+            fr.Show();
+            this.Hide();
 
         }
     }

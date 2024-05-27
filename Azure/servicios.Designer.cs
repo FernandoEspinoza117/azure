@@ -51,6 +51,7 @@
             this.ServiceOPS = new System.Windows.Forms.Button();
             this.serviceAlm = new System.Windows.Forms.Button();
             this.serviceSeg = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -232,7 +233,7 @@
             // 
             // iniciarses
             // 
-            this.iniciarses.Location = new System.Drawing.Point(559, 1);
+            this.iniciarses.Location = new System.Drawing.Point(548, 1);
             this.iniciarses.Name = "iniciarses";
             this.iniciarses.Size = new System.Drawing.Size(101, 23);
             this.iniciarses.TabIndex = 55;
@@ -300,12 +301,23 @@
             this.serviceSeg.UseVisualStyleBackColor = true;
             this.serviceSeg.Click += new System.EventHandler(this.serviceSeg_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(584, 4);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 20);
+            this.label8.TabIndex = 63;
+            this.label8.Text = "label8";
+            // 
             // servicios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(662, 440);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.serviceSeg);
             this.Controls.Add(this.serviceAlm);
             this.Controls.Add(this.ServiceOPS);
@@ -368,5 +380,6 @@
         private System.Windows.Forms.Button ServiceOPS;
         private System.Windows.Forms.Button serviceAlm;
         private System.Windows.Forms.Button serviceSeg;
+        private System.Windows.Forms.Label label8;
     }
 }

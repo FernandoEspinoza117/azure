@@ -53,8 +53,8 @@ namespace Azure
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Usuario Creado");
                     ConexionBD.CloseConnection();
-                    usuarios Obj = new usuarios();
-                    Obj.Show();
+                    usuarios obj = new usuarios();
+                    obj.Show();
                     this.Hide();
                 }
                 catch (Exception Ex)

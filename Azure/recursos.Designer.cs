@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.Tipo_usuario = new System.Windows.Forms.ComboBox();
+            this.Nombre_grupo = new System.Windows.Forms.ComboBox();
             this.gruporecursoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.azureDataSet4 = new Azure.azureDataSet4();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Nombre_tipo = new System.Windows.Forms.ComboBox();
             this.tiporecursoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.azureDataSet5 = new Azure.azureDataSet5();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.Nombre_region = new System.Windows.Forms.ComboBox();
             this.regionBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.azureDataSet3 = new Azure.azureDataSet3();
             this.button1 = new System.Windows.Forms.Button();
@@ -50,17 +50,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.azureDataSet3)).BeginInit();
             this.SuspendLayout();
             // 
-            // Tipo_usuario
+            // Nombre_grupo
             // 
-            this.Tipo_usuario.DataSource = this.gruporecursoBindingSource;
-            this.Tipo_usuario.DisplayMember = "nombre_grupo_recurso";
-            this.Tipo_usuario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Tipo_usuario.FormattingEnabled = true;
-            this.Tipo_usuario.Location = new System.Drawing.Point(336, 150);
-            this.Tipo_usuario.Name = "Tipo_usuario";
-            this.Tipo_usuario.Size = new System.Drawing.Size(121, 21);
-            this.Tipo_usuario.TabIndex = 28;
-            this.Tipo_usuario.ValueMember = "id_grupo_recurso";
+            this.Nombre_grupo.DataSource = this.gruporecursoBindingSource;
+            this.Nombre_grupo.DisplayMember = "nombre_grupo_recurso";
+            this.Nombre_grupo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Nombre_grupo.FormattingEnabled = true;
+            this.Nombre_grupo.Location = new System.Drawing.Point(336, 150);
+            this.Nombre_grupo.Name = "Nombre_grupo";
+            this.Nombre_grupo.Size = new System.Drawing.Size(121, 21);
+            this.Nombre_grupo.TabIndex = 28;
+            this.Nombre_grupo.ValueMember = "id_grupo_recurso";
             // 
             // gruporecursoBindingSource
             // 
@@ -72,17 +72,17 @@
             this.azureDataSet4.DataSetName = "azureDataSet4";
             this.azureDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // comboBox1
+            // Nombre_tipo
             // 
-            this.comboBox1.DataSource = this.tiporecursoBindingSource;
-            this.comboBox1.DisplayMember = "nombre_tipo_recurso";
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(529, 150);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 29;
-            this.comboBox1.ValueMember = "id_tipo_recurso";
+            this.Nombre_tipo.DataSource = this.tiporecursoBindingSource;
+            this.Nombre_tipo.DisplayMember = "nombre_tipo_recurso";
+            this.Nombre_tipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Nombre_tipo.FormattingEnabled = true;
+            this.Nombre_tipo.Location = new System.Drawing.Point(529, 150);
+            this.Nombre_tipo.Name = "Nombre_tipo";
+            this.Nombre_tipo.Size = new System.Drawing.Size(121, 21);
+            this.Nombre_tipo.TabIndex = 29;
+            this.Nombre_tipo.ValueMember = "id_tipo_recurso";
             // 
             // tiporecursoBindingSource
             // 
@@ -94,17 +94,17 @@
             this.azureDataSet5.DataSetName = "azureDataSet5";
             this.azureDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // comboBox2
+            // Nombre_region
             // 
-            this.comboBox2.DataSource = this.regionBindingSource;
-            this.comboBox2.DisplayMember = "nombre_region";
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(127, 150);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 30;
-            this.comboBox2.ValueMember = "id_region";
+            this.Nombre_region.DataSource = this.regionBindingSource;
+            this.Nombre_region.DisplayMember = "nombre_region";
+            this.Nombre_region.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Nombre_region.FormattingEnabled = true;
+            this.Nombre_region.Location = new System.Drawing.Point(127, 150);
+            this.Nombre_region.Name = "Nombre_region";
+            this.Nombre_region.Size = new System.Drawing.Size(121, 21);
+            this.Nombre_region.TabIndex = 30;
+            this.Nombre_region.ValueMember = "id_region";
             // 
             // regionBindingSource
             // 
@@ -118,11 +118,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(358, 287);
+            this.button1.Location = new System.Drawing.Point(297, 287);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(136, 23);
             this.button1.TabIndex = 31;
-            this.button1.Text = "button1";
+            this.button1.Text = "Efectuar Compra";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -144,9 +144,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.Tipo_usuario);
+            this.Controls.Add(this.Nombre_region);
+            this.Controls.Add(this.Nombre_tipo);
+            this.Controls.Add(this.Nombre_grupo);
             this.Name = "recursos";
             this.Text = "recursos";
             this.Load += new System.EventHandler(this.recursos_Load);
@@ -162,9 +162,9 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox Tipo_usuario;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox Nombre_grupo;
+        private System.Windows.Forms.ComboBox Nombre_tipo;
+        private System.Windows.Forms.ComboBox Nombre_region;
         private System.Windows.Forms.Button button1;
         private azureDataSet3 azureDataSet3;
         private System.Windows.Forms.BindingSource regionBindingSource;
