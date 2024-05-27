@@ -54,6 +54,7 @@
             this.imprimir.TabIndex = 1;
             this.imprimir.Text = "Imprimir Factura";
             this.imprimir.UseVisualStyleBackColor = true;
+            this.imprimir.Click += new System.EventHandler(this.imprimir_Click);
             // 
             // button1
             // 
@@ -88,5 +89,6 @@
         private System.Windows.Forms.DataGridView VerFactura;
         private System.Windows.Forms.Button imprimir;
         private System.Windows.Forms.Button button1;
+        private System.Drawing.Printing.PrintDocument printDocument;
     }
 }

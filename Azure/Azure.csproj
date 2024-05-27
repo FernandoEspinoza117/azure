@@ -83,6 +83,7 @@
     <Compile Include="crear usuario.Designer.cs">
       <DependentUpon>crear usuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrearPDF.cs" />
     <Compile Include="factura.cs">
       <SubType>Form</SubType>
     </Compile>

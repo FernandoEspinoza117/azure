@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,6 +42,13 @@ namespace Azure
             servicios fr = new servicios();
             fr.Show();
             this.Hide();
+        }
+        CrearPDF CrearPDF = new CrearPDF();
+
+        private void imprimir_Click(object sender, EventArgs e)
+        {
+            PrintDocument printDocument=new PrintDocument();
+            CrearPDF.ImprimirDesdeNombre(VerFactura, printDocument);
         }
     }
 }
