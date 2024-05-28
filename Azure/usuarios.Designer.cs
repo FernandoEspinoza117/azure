@@ -47,7 +47,7 @@
             this.btniniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btniniciar.Location = new System.Drawing.Point(201, 209);
             this.btniniciar.Name = "btniniciar";
-            this.btniniciar.Size = new System.Drawing.Size(125, 23);
+            this.btniniciar.Size = new System.Drawing.Size(125, 33);
             this.btniniciar.TabIndex = 17;
             this.btniniciar.Text = "Iniciar Sesion";
             this.btniniciar.UseVisualStyleBackColor = false;
@@ -56,7 +56,7 @@
             // ckmostrar
             // 
             this.ckmostrar.AutoSize = true;
-            this.ckmostrar.BackColor = System.Drawing.Color.AliceBlue;
+            this.ckmostrar.BackColor = System.Drawing.Color.Transparent;
             this.ckmostrar.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.ckmostrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ckmostrar.Location = new System.Drawing.Point(248, 120);
@@ -88,7 +88,7 @@
             // lblcontra
             // 
             this.lblcontra.AutoSize = true;
-            this.lblcontra.BackColor = System.Drawing.Color.AliceBlue;
+            this.lblcontra.BackColor = System.Drawing.Color.Transparent;
             this.lblcontra.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.lblcontra.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblcontra.Location = new System.Drawing.Point(47, 120);
@@ -100,7 +100,7 @@
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.BackColor = System.Drawing.Color.AliceBlue;
+            this.lblusuario.BackColor = System.Drawing.Color.Transparent;
             this.lblusuario.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.lblusuario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblusuario.Location = new System.Drawing.Point(72, 80);
@@ -112,22 +112,22 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -3);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(351, 277);
+            this.pictureBox1.Size = new System.Drawing.Size(351, 281);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.AliceBlue;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(21, 209);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 23);
+            this.button1.Size = new System.Drawing.Size(130, 33);
             this.button1.TabIndex = 19;
             this.button1.Text = "Crear Usuario";
             this.button1.UseVisualStyleBackColor = false;

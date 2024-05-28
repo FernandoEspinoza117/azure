@@ -43,7 +43,6 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.iniciarses = new System.Windows.Forms.Button();
             this.servececomp = new System.Windows.Forms.Button();
             this.serviceBD = new System.Windows.Forms.Button();
@@ -51,7 +50,6 @@
             this.ServiceOPS = new System.Windows.Forms.Button();
             this.serviceAlm = new System.Windows.Forms.Button();
             this.serviceSeg = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
             this.ver_fact = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -60,84 +58,90 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label7.Location = new System.Drawing.Point(256, 352);
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(335, 380);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(146, 13);
+            this.label7.Size = new System.Drawing.Size(122, 19);
             this.label7.TabIndex = 48;
-            this.label7.Text = "Servicios de Almacenamiento";
+            this.label7.Text = "Almacenamiento";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.GhostWhite;
-            this.label6.Location = new System.Drawing.Point(61, 352);
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(123, 349);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 13);
+            this.label6.Size = new System.Drawing.Size(61, 19);
             this.label6.TabIndex = 47;
-            this.label6.Text = "Servicios de devOps\n";
+            this.label6.Text = "DevOps\n";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.GhostWhite;
-            this.label5.Location = new System.Drawing.Point(459, 355);
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(593, 332);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 13);
+            this.label5.Size = new System.Drawing.Size(81, 19);
             this.label5.TabIndex = 46;
-            this.label5.Text = "Servicios de Seguridad ";
+            this.label5.Text = "Seguridad ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.GhostWhite;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(459, 202);
+            this.label4.Location = new System.Drawing.Point(599, 130);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 13);
+            this.label4.Size = new System.Drawing.Size(48, 19);
             this.label4.TabIndex = 45;
-            this.label4.Text = "Servicios de Redes\n";
+            this.label4.Text = "Redes\n";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(256, 202);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(335, 187);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 13);
+            this.label3.Size = new System.Drawing.Size(111, 19);
             this.label3.TabIndex = 44;
-            this.label3.Text = "Servicios de Base De Datos ";
+            this.label3.Text = "Base De Datos ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(61, 202);
+            this.label2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(99, 130);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 13);
+            this.label2.Size = new System.Drawing.Size(99, 19);
             this.label2.TabIndex = 43;
-            this.label2.Text = "Servicios de Computación";
+            this.label2.Text = "Computación";
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(64, 285);
+            this.pictureBox8.Location = new System.Drawing.Point(93, 380);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(88, 65);
+            this.pictureBox8.Size = new System.Drawing.Size(105, 77);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 42;
             this.pictureBox8.TabStop = false;
@@ -145,10 +149,10 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(259, 288);
+            this.pictureBox7.Location = new System.Drawing.Point(339, 417);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(88, 65);
+            this.pictureBox7.Size = new System.Drawing.Size(105, 77);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 41;
             this.pictureBox7.TabStop = false;
@@ -157,21 +161,21 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Font = new System.Drawing.Font("Impact", 30F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 29);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(287, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 48);
+            this.label1.Size = new System.Drawing.Size(214, 43);
             this.label1.TabIndex = 40;
             this.label1.Text = "SERVICIOS";
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(207, 29);
+            this.pictureBox6.Image = global::Azure.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
+            this.pictureBox6.Location = new System.Drawing.Point(-2, -2);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(93, 71);
+            this.pictureBox6.Size = new System.Drawing.Size(783, 543);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 39;
             this.pictureBox6.TabStop = false;
@@ -179,10 +183,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(462, 288);
+            this.pictureBox5.Location = new System.Drawing.Point(581, 367);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(88, 65);
+            this.pictureBox5.Size = new System.Drawing.Size(105, 77);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 38;
             this.pictureBox5.TabStop = false;
@@ -190,10 +194,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(259, 135);
+            this.pictureBox4.Location = new System.Drawing.Point(339, 220);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(88, 65);
+            this.pictureBox4.Size = new System.Drawing.Size(105, 77);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 37;
             this.pictureBox4.TabStop = false;
@@ -201,10 +205,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(462, 135);
+            this.pictureBox3.Location = new System.Drawing.Point(581, 160);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(88, 65);
+            this.pictureBox3.Size = new System.Drawing.Size(105, 77);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 36;
             this.pictureBox3.TabStop = false;
@@ -214,29 +218,20 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Firebrick;
             this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(64, 135);
+            this.pictureBox2.Location = new System.Drawing.Point(93, 160);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(88, 65);
+            this.pictureBox2.Size = new System.Drawing.Size(105, 77);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 35;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 29);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(638, 410);
-            this.pictureBox1.TabIndex = 34;
-            this.pictureBox1.TabStop = false;
-            // 
             // iniciarses
             // 
-            this.iniciarses.Location = new System.Drawing.Point(548, 1);
+            this.iniciarses.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iniciarses.Location = new System.Drawing.Point(545, 12);
             this.iniciarses.Name = "iniciarses";
-            this.iniciarses.Size = new System.Drawing.Size(101, 23);
+            this.iniciarses.Size = new System.Drawing.Size(100, 34);
             this.iniciarses.TabIndex = 55;
             this.iniciarses.Text = "Iniciar Sesion";
             this.iniciarses.UseVisualStyleBackColor = true;
@@ -244,7 +239,8 @@
             // 
             // servececomp
             // 
-            this.servececomp.Location = new System.Drawing.Point(64, 218);
+            this.servececomp.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.servececomp.Location = new System.Drawing.Point(109, 242);
             this.servececomp.Name = "servececomp";
             this.servececomp.Size = new System.Drawing.Size(75, 23);
             this.servececomp.TabIndex = 57;
@@ -254,7 +250,8 @@
             // 
             // serviceBD
             // 
-            this.serviceBD.Location = new System.Drawing.Point(259, 218);
+            this.serviceBD.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.serviceBD.Location = new System.Drawing.Point(348, 302);
             this.serviceBD.Name = "serviceBD";
             this.serviceBD.Size = new System.Drawing.Size(75, 23);
             this.serviceBD.TabIndex = 58;
@@ -264,7 +261,8 @@
             // 
             // serviceRed
             // 
-            this.serviceRed.Location = new System.Drawing.Point(462, 218);
+            this.serviceRed.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.serviceRed.Location = new System.Drawing.Point(597, 242);
             this.serviceRed.Name = "serviceRed";
             this.serviceRed.Size = new System.Drawing.Size(75, 23);
             this.serviceRed.TabIndex = 59;
@@ -274,7 +272,8 @@
             // 
             // ServiceOPS
             // 
-            this.ServiceOPS.Location = new System.Drawing.Point(64, 368);
+            this.ServiceOPS.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceOPS.Location = new System.Drawing.Point(109, 462);
             this.ServiceOPS.Name = "ServiceOPS";
             this.ServiceOPS.Size = new System.Drawing.Size(75, 23);
             this.ServiceOPS.TabIndex = 60;
@@ -284,7 +283,8 @@
             // 
             // serviceAlm
             // 
-            this.serviceAlm.Location = new System.Drawing.Point(259, 368);
+            this.serviceAlm.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.serviceAlm.Location = new System.Drawing.Point(348, 499);
             this.serviceAlm.Name = "serviceAlm";
             this.serviceAlm.Size = new System.Drawing.Size(75, 23);
             this.serviceAlm.TabIndex = 61;
@@ -294,7 +294,8 @@
             // 
             // serviceSeg
             // 
-            this.serviceSeg.Location = new System.Drawing.Point(462, 371);
+            this.serviceSeg.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.serviceSeg.Location = new System.Drawing.Point(597, 449);
             this.serviceSeg.Name = "serviceSeg";
             this.serviceSeg.Size = new System.Drawing.Size(75, 23);
             this.serviceSeg.TabIndex = 62;
@@ -302,21 +303,12 @@
             this.serviceSeg.UseVisualStyleBackColor = true;
             this.serviceSeg.Click += new System.EventHandler(this.serviceSeg_Click);
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(584, 4);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 20);
-            this.label8.TabIndex = 63;
-            this.label8.Text = "label8";
-            // 
             // ver_fact
             // 
-            this.ver_fact.Location = new System.Drawing.Point(446, 1);
+            this.ver_fact.Font = new System.Drawing.Font("Times New Roman", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ver_fact.Location = new System.Drawing.Point(651, 12);
             this.ver_fact.Name = "ver_fact";
-            this.ver_fact.Size = new System.Drawing.Size(91, 23);
+            this.ver_fact.Size = new System.Drawing.Size(95, 34);
             this.ver_fact.TabIndex = 64;
             this.ver_fact.Text = "Ver Facturas";
             this.ver_fact.UseVisualStyleBackColor = true;
@@ -326,10 +318,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(662, 440);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(778, 539);
             this.Controls.Add(this.ver_fact);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.serviceSeg);
             this.Controls.Add(this.serviceAlm);
             this.Controls.Add(this.ServiceOPS);
@@ -346,12 +337,11 @@
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox6);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "servicios";
             this.Text = "servicios";
@@ -363,7 +353,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -384,7 +373,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button iniciarses;
         private System.Windows.Forms.Button servececomp;
         private System.Windows.Forms.Button serviceBD;
@@ -392,7 +380,6 @@
         private System.Windows.Forms.Button ServiceOPS;
         private System.Windows.Forms.Button serviceAlm;
         private System.Windows.Forms.Button serviceSeg;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button ver_fact;
     }
 }
