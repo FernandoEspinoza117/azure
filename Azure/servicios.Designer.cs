@@ -67,7 +67,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(335, 380);
+            this.label7.Location = new System.Drawing.Point(336, 352);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 19);
@@ -79,7 +79,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.GhostWhite;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(123, 349);
+            this.label6.Location = new System.Drawing.Point(124, 321);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 19);
@@ -91,7 +91,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.GhostWhite;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(593, 332);
+            this.label5.Location = new System.Drawing.Point(594, 304);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 19);
@@ -105,7 +105,7 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(599, 130);
+            this.label4.Location = new System.Drawing.Point(600, 102);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 19);
@@ -117,7 +117,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(335, 187);
+            this.label3.Location = new System.Drawing.Point(336, 159);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 19);
@@ -130,7 +130,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(99, 130);
+            this.label2.Location = new System.Drawing.Point(100, 102);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 19);
@@ -140,7 +140,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(93, 380);
+            this.pictureBox8.Location = new System.Drawing.Point(94, 352);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(105, 77);
@@ -151,7 +151,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(339, 417);
+            this.pictureBox7.Location = new System.Drawing.Point(340, 389);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(105, 77);
@@ -174,10 +174,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Azure.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.pictureBox6.Location = new System.Drawing.Point(-2, -2);
+            this.pictureBox6.Location = new System.Drawing.Point(-2, -5);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(783, 543);
+            this.pictureBox6.Size = new System.Drawing.Size(831, 551);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 39;
             this.pictureBox6.TabStop = false;
@@ -185,7 +185,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(581, 367);
+            this.pictureBox5.Location = new System.Drawing.Point(582, 339);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(105, 77);
@@ -196,7 +196,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(339, 220);
+            this.pictureBox4.Location = new System.Drawing.Point(340, 192);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(105, 77);
@@ -207,7 +207,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(581, 160);
+            this.pictureBox3.Location = new System.Drawing.Point(582, 132);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(105, 77);
@@ -220,7 +220,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Firebrick;
             this.pictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.ErrorImage")));
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(93, 160);
+            this.pictureBox2.Location = new System.Drawing.Point(94, 132);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(105, 77);
@@ -242,7 +242,7 @@
             // servececomp
             // 
             this.servececomp.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.servececomp.Location = new System.Drawing.Point(109, 242);
+            this.servececomp.Location = new System.Drawing.Point(110, 214);
             this.servececomp.Name = "servececomp";
             this.servececomp.Size = new System.Drawing.Size(75, 23);
             this.servececomp.TabIndex = 57;
@@ -253,7 +253,7 @@
             // serviceBD
             // 
             this.serviceBD.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serviceBD.Location = new System.Drawing.Point(348, 302);
+            this.serviceBD.Location = new System.Drawing.Point(349, 274);
             this.serviceBD.Name = "serviceBD";
             this.serviceBD.Size = new System.Drawing.Size(75, 23);
             this.serviceBD.TabIndex = 58;
@@ -264,7 +264,7 @@
             // serviceRed
             // 
             this.serviceRed.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serviceRed.Location = new System.Drawing.Point(597, 242);
+            this.serviceRed.Location = new System.Drawing.Point(598, 214);
             this.serviceRed.Name = "serviceRed";
             this.serviceRed.Size = new System.Drawing.Size(75, 23);
             this.serviceRed.TabIndex = 59;
@@ -275,7 +275,7 @@
             // ServiceOPS
             // 
             this.ServiceOPS.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ServiceOPS.Location = new System.Drawing.Point(109, 462);
+            this.ServiceOPS.Location = new System.Drawing.Point(110, 434);
             this.ServiceOPS.Name = "ServiceOPS";
             this.ServiceOPS.Size = new System.Drawing.Size(75, 23);
             this.ServiceOPS.TabIndex = 60;
@@ -286,7 +286,7 @@
             // serviceAlm
             // 
             this.serviceAlm.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serviceAlm.Location = new System.Drawing.Point(348, 499);
+            this.serviceAlm.Location = new System.Drawing.Point(349, 471);
             this.serviceAlm.Name = "serviceAlm";
             this.serviceAlm.Size = new System.Drawing.Size(75, 23);
             this.serviceAlm.TabIndex = 61;
@@ -297,7 +297,7 @@
             // serviceSeg
             // 
             this.serviceSeg.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serviceSeg.Location = new System.Drawing.Point(597, 449);
+            this.serviceSeg.Location = new System.Drawing.Point(598, 421);
             this.serviceSeg.Name = "serviceSeg";
             this.serviceSeg.Size = new System.Drawing.Size(75, 23);
             this.serviceSeg.TabIndex = 62;
@@ -319,10 +319,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(555, 17);
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(763, 12);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 20);
+            this.label8.Size = new System.Drawing.Size(50, 19);
             this.label8.TabIndex = 65;
             this.label8.Text = "label8";
             // 
@@ -342,7 +342,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(778, 539);
+            this.ClientSize = new System.Drawing.Size(825, 539);
             this.Controls.Add(this.Cerrar_sesion);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.ver_fact);
