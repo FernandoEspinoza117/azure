@@ -38,6 +38,7 @@ namespace Azure
                    label8.Visible = true;
                    ver_fact.Visible = true;
                    iniciarses.Visible = false;
+                   Cerrar_sesion.Visible = true;
                    servececomp.Enabled = true;
                    serviceAlm.Enabled = true;
                    serviceBD.Enabled = true;    
@@ -50,6 +51,7 @@ namespace Azure
                     label8.Visible = false;
                    ver_fact.Visible = false;
                    iniciarses.Visible = true;
+                   Cerrar_sesion.Visible = false;
                    servececomp.Enabled = false;
                    serviceAlm.Enabled = false;
                    serviceBD.Enabled = false;
@@ -58,7 +60,7 @@ namespace Azure
                    ServiceOPS.Enabled = false;
 
                 }
-            
+
 
         }
 
@@ -95,7 +97,7 @@ namespace Azure
 
         private void ServiceOPS_Click(object sender, EventArgs e)
         {
-
+            idservicios = 5;
             recursos Obj = new recursos();
             Obj.Show();
             this.Hide();
@@ -122,6 +124,27 @@ namespace Azure
             factura fr = new factura();
             fr.Show();
             this.Hide();
+        }
+
+        private void Cerrar_sesion_Click(object sender, EventArgs e)
+        {
+            if (usuarios.idusuario != 0)
+            {
+                label8.Visible = false;
+                ver_fact.Visible = false;
+                iniciarses.Visible = true;
+                Cerrar_sesion.Visible = false;
+                servececomp.Enabled = false;
+                serviceAlm.Enabled = false;
+                serviceBD.Enabled = false;
+                serviceRed.Enabled = false;
+                serviceSeg.Enabled = false;
+                ServiceOPS.Enabled = false;
+            }
+            else
+            {
+
+            }
         }
     }
 }
